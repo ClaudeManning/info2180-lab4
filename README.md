@@ -1,1 +1,2 @@
-# AJAX Superheroes Starter Files
+#Info2180-lab4
+Claude Manning
