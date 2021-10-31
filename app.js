@@ -1,9 +1,10 @@
+
 document.addEventListener("DOMContentLoaded",()=>{
 
 	const btnsearch=document.getElementById("search_button");
 	var ajaxrequest = new XMLHttpRequest();
 
-	var url = "http://localhost/info2180-lab4/superheroes.php";
+	var url = "http:localhost:8080/superheroes.php";
 
 	btnsearch.addEventListener("click",()=>{
 
