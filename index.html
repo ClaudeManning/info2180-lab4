@@ -3,27 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="app.js"> </script>
-    <title>Avengers Character Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>  
+    <script src="app.js"></script> 
+    <title> SuperHeroes </title>
 </head>
 <body>
-    <div class="container">
+    <div class = "header">
+        <h1> AVENGERS CHARACTER SEARCH </h1>
+        </div>
 
-        <header>
-            <h1>AVENGERS CHARACTER SEARCH</h1>
-        </header>
+        <br>
 
-        <main>
-            <form>
-                <label><b>Search by Full Name or Alias</b></label>
-                <input id ="searchField" name="search" type="text" placeholder="e.g. Captain America or Steve Rogers" />
-                <button name ="searchbtn" id="btn" type ="submit">Search</button>
-            </form>
-            <div id ="result">
+        <section>
+            <div class="information">
+                <h4>Search by Full name or Alias</h4>
+                <input type="text" name="search" id="search" placeholder="e.g. Captain America or Steve Rogers">
+                <button type="submit" id="button" class="btn" >Search</button>
+                <br>
             </div>
-        </main>
-
-    </div>
+            
+            <h2>RESULTS</h2>
+            <hr>
+            <div id="results"></div>
+           </section>
 </body>
+<footer><h4> Copyright 2021, Claude Manning </h4></footer>
 </html>
