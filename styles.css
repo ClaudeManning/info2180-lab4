@@ -1,7 +1,7 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    background-color: beige;
+    background-color: yellow;
 }
 
 .header{
@@ -50,6 +50,6 @@ footer{
     color:beige;
     height: 50px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     text-align:center;
 }
